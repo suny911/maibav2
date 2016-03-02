@@ -586,7 +586,7 @@ h6, .ui-txt-tips {
 
 .ui-header-positive,
 .ui-footer-positive {
-  background-color: #18b4ed;
+  background-color: #fec90e;
   color: #fff; }
   .ui-header-positive a, .ui-header-positive a:active, .ui-header-positive i,
   .ui-footer-positive a,
@@ -612,7 +612,9 @@ h6, .ui-txt-tips {
 
 .ui-header h1 {
   text-align: center;
-  font-size: 18px; }
+  font-weight: normal;
+  color:#000;
+  font-size: 17px; }
 
 .ui-header .ui-icon-return {
   position: absolute;
