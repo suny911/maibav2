@@ -604,6 +604,10 @@ h6, .ui-txt-tips {
   .ui-footer-btn .ui-tiled {
     height: 100%; }
 
+.ui-container{
+  background-color: #f2f2f2;
+}
+
 .ui-footer {
   bottom: 0;
   height: 56px; }
@@ -1158,7 +1162,7 @@ h6, .ui-txt-tips {
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding-top: 31.25%; }
+  padding-top: 40%; }
 
 .ui-slider-content {
   display: -webkit-box;
@@ -1202,7 +1206,7 @@ h6, .ui-txt-tips {
   font-size: 0;
   width: 7px;
   height: 7px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   margin-right: 6px;
   -webkit-box-sizing: border-box;
@@ -1212,11 +1216,11 @@ h6, .ui-txt-tips {
 .ui-slider-indicators li.current:before {
   content: '';
   position: absolute;
-  background-color: #fff;
-  left: 1px;
-  top: 1px;
-  width: 5px;
-  height: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  left: 0px;
+  top: 0px;
+  width: 7px;
+  height: 7px;
   border-radius: 10px;
   -webkit-box-sizing: border-box;
   -webkit-background-clip: padding-box; }
@@ -1961,10 +1965,14 @@ h6, .ui-txt-tips {
 
 /*..............................................................*/
 
-.demo-item{}
+.demo-item{
+  margin-bottom: 10px;
+  padding-top: 10px;
+  background: #fff;
+}
 
 .demo-item .demo-desc{
-  margin: 15px 0 0 15px;
+  margin: 0 0 0 15px;
   padding-left:12px; 
   background:url("../img/title_dot@1x.png") no-repeat;
   background-size: 6px 21px;
