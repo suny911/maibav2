@@ -562,7 +562,11 @@ h6, .ui-txt-tips {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between; }
 
-.ui-header,
+.ui-header{
+  width: 100%;
+  z-index: 100;
+  left: 0; }
+
 .ui-footer {
   position: fixed;
   width: 100%;
