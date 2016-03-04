@@ -43,7 +43,7 @@
 	<script type="text/javascript" charset="utf-8">
 		 //mui初始化
 		mui.init();
-		var subpages = ['home.html', 'discover.html', 'chat.html', 'me.html'];
+		var subpages = ['home.html', 'discover.html', 'chat.html', 'me.html', 'add.html'];
 
 		
 		var aniShow = {};
@@ -61,6 +61,10 @@
 			var subpage_style_home = {
 				top: '0',
 				bottom: '51px'
+			};
+			var subpage_style_add = {
+				top: '0',
+				bottom: '0'
 			};
 			var subpage_style = {
 				top: topoffset,
@@ -80,7 +84,9 @@
 					mui.extend(aniShow,temp);
 				}
 				self.append(sub);
-			}
+			};
+			var sub = plus.webview.create(subpages[4], subpages[4], subpage_style_add);
+			self.append(sub);
 		});
 		 //当前激活选项
 		var activeTab = subpages[0];
