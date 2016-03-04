@@ -63,3 +63,19 @@
     color: white;
     background: red;
 }
+.demo-desc{
+  padding: 10px 0 5px 15px;
+  padding-left:12px; 
+  background:url("../img/title_dot@1x.png") no-repeat;
+  background-size: 6px 21px;
+  background-position: 0 10px;
+  font-weight: 200;
+  color: #333;
+}
+.mui-media-body
+{
+    text-align: start;
+}
+.mui-grid-view{
+	margin-bottom: 10px;
+}
