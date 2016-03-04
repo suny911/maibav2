@@ -72,10 +72,33 @@
   font-weight: 200;
   color: #333;
 }
-.mui-media-body
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body
 {
     text-align: start;
+    font-size: 12px;
+    margin-top:5px;
+    line-height: 12px;
+    height: 20px;
 }
 .mui-grid-view{
 	margin-bottom: 10px;
+}
+.mui-table-view:before{
+	height: 0;
+}
+.mui-slider-indicator .mui-indicator
+{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: rgba(170, 170, 170, 0.5);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.mui-slider-indicator .mui-active.mui-indicator
+{
+    background: rgba(255, 255, 255, 0.9);
 }
