@@ -1,1 +1,45 @@
-null
+{
+  "home.html": {
+    "href": "home.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/global.css",
+      "img/demo_card@2x.png",
+      "img/demo_card2@2x.png",
+      "img/demo_card3@2x.png",
+      "img/demo_card4@2x.png",
+      "img/banner@2x.png",
+      "img/demo_card5@2x.png",
+      "img/demo_card6@2x.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "chat.html": {
+    "href": "chat.html",
+    "priority": 0
+  },
+  "discover.html": {
+    "href": "discover.html",
+    "priority": 0
+  },
+  "me.html": {
+    "href": "me.html",
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "home.html",
+      "chat.html",
+      "discover.html",
+      "me.html"
+    ],
+    "priority": 0
+  }
+}

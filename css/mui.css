@@ -1434,7 +1434,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     height: 24px;
 }
 
-.mui-bar
+.mb-mui-bar
 {
     position: fixed;
     z-index: 10;
